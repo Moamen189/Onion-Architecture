@@ -8,11 +8,7 @@ namespace DomainLayer.Models
 {
     public class SubjectGpas : BaseEntity
     {
-        //public int Id
-        //{
-        //    get;
-        //    set;
-        //}
+
         public string SubjectName
         {
             get;

@@ -8,11 +8,7 @@ namespace DomainLayer.Models
 {
     public class Departments : BaseEntity
     {
-        //public int Id
-        //{
-        //    get;
-        //    set;
-        //}
+
         public string DepartmentName
         {
             get;

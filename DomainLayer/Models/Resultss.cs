@@ -9,11 +9,7 @@ namespace DomainLayer.Models
 {
     public class Resultss : BaseEntity
     {
-        //public int Id
-        //{
-        //    get;
-        //    set;
-        //}
+
         public string? ResultStatus
         {
             get;
