@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "Onion 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainLayer", "DomainLayer\DomainLayer.csproj", "{4BED3A11-669C-4BC5-BF5B-602067022EE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryLayer", "RepositoryLayer\RepositoryLayer.csproj", "{ACC2E259-F2DC-4542-8F9D-3795D22CE5BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4BED3A11-669C-4BC5-BF5B-602067022EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BED3A11-669C-4BC5-BF5B-602067022EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BED3A11-669C-4BC5-BF5B-602067022EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC2E259-F2DC-4542-8F9D-3795D22CE5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC2E259-F2DC-4542-8F9D-3795D22CE5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC2E259-F2DC-4542-8F9D-3795D22CE5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC2E259-F2DC-4542-8F9D-3795D22CE5BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
