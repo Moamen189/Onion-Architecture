@@ -1,15 +1,26 @@
-﻿using System;
+﻿using DomainLayer.Models.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLayer.Models
+namespace DomainLayer.Models.Entities
 {
-    public class Departments : BaseEntity
+    public class SubjectGpas : BaseEntity
     {
 
-        public string DepartmentName
+        public string SubjectName
+        {
+            get;
+            set;
+        }
+        public float Gpa
+        {
+            get;
+            set;
+        }
+        public string SubjectPassStatus
         {
             get;
             set;

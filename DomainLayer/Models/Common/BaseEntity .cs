@@ -1,4 +1,4 @@
-﻿namespace DomainLayer.Models
+﻿namespace DomainLayer.Models.Common
 {
     public class BaseEntity
     {

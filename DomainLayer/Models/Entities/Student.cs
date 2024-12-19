@@ -1,11 +1,12 @@
-﻿using System;
+﻿using DomainLayer.Models.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLayer.Models
+namespace DomainLayer.Models.Entities
 {
     public class Student : BaseEntity
     {

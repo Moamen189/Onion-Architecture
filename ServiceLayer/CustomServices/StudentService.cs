@@ -1,4 +1,4 @@
-﻿using DomainLayer.Models;
+﻿using DomainLayer.Models.Entities;
 using RepositoryLayer.IRepository;
 using ServiceLayer.ICustomServices;
 using System;
