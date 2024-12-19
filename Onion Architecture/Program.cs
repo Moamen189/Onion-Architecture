@@ -1,6 +1,5 @@
-
-using DomainLayer.Data;
-using DomainLayer.Models;
+using DomainLayer.Migrations;
+using DomainLayer.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 using RepositoryLayer.IRepository;
 using RepositoryLayer.Repository;

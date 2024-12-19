@@ -1,5 +1,5 @@
-﻿using DomainLayer.Data;
-using DomainLayer.Models;
+﻿using DomainLayer.Migrations;
+using DomainLayer.Models.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
