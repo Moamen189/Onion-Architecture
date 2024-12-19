@@ -1,6 +1,11 @@
 
 using DomainLayer.Data;
+using DomainLayer.Models;
 using Microsoft.EntityFrameworkCore;
+using RepositoryLayer.IRepository;
+using RepositoryLayer.Repository;
+using ServiceLayer.CustomServices;
+using ServiceLayer.ICustomServices;
 
 namespace Onion_Architecture
 {
@@ -21,6 +26,12 @@ namespace Onion_Architecture
                 options.UseSqlServer(ConnectionString);
 
             });
+
+            builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            builder.Services.AddScoped<ICustomService<Student>, StudentService>();
+            builder.Services.AddScoped<ICustomService<Resultss>, ResultService>();
+            builder.Services.AddScoped<ICustomService<Departments>, DepartmentsService>();
+            builder.Services.AddScoped<ICustomService<SubjectGpas>, SubjectGpasService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
